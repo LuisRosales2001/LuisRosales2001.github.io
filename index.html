@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Rosales DEV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        li {
+            text-align: justify;
+            margin-right: 5%;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-left: 5%;
+        }
+        h4, h3 {
+            margin-left: 5%;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+            margin-left: 5%;
+        }
+        .info__text{
+            margin-left: 5%;
+        }
+        .finalInfo p{
+            margin-left: 5%;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            background-color: antiquewhite;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="luisrosalescvfoto.webp" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div class="info__div">
+                <h3 class="info__text">Nombre</h3>
+                <p class="info__text">Luis Angel Rosales Carrillo</p>
+            </div>
+            <div>
+                <h3 class="info__text">Correo Electrónico</h3>
+                <p class="info__text">langelrcarrillo@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Customer Service Representative</h3>
+            <h4><i>EVERISE</i>, Independence Blue Cross (September 2023 - Present)</h4>
+            <ul>
+                <li>Soy responsable de atender las consultas de los miembros relacionadas con la cobertura 
+                    de seguros de salud. La organización utiliza el software CITRIX para este propósito.
+                <br>He trabajado en distintas empresas por 4 años para este ámbito de servicio al cliente mayoritariamente en inglés.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Asistente de Diseño de Línea Estructurada y Cableado</h3>
+            <h4><I>LINEDESIGN</I>, Asistente de Diseño de Línea Estructurada y Cableado (Marzo 2021 - Julio 2021): </h4>
+            <ul>
+                <li>He adquirido un amplio conocimiento en soporte técnico y experiencia en servidores informáticos, lo que me ha permitido 
+                    contribuir de manera efectiva a tareas técnicas y ofrecer asistencia estructurada en dichas tareas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="finalInfo">
+        <h2>Educación</h2>
+        <div>
+            <p>Técnico en Desarrollo de Software, Universidad Galileo, Guatemala, 2024.</p>
+            <p>Ingeniería de Sistemas, Universidad del Valle de Guatemala, Enero 2019 - Septiembre 2020</p>
+            <p>Bachiller en Ciencias y Letras, Colegio Viena Guatemalteco, 2014 - 2018. Obtenido.</p>
+        </div>
+        <h2>Cursos</h2>
+        <div>
+            <p>100 days of Python - Curso enfocado en análisis de datos y en masterizar la programación en Python.</p>
+            <p>Curso máster en HTML, CSS y JavaScript - Enfocado en desarrollo de páginas web.</p>
+        </div>
+    </section>
+</body>
+</html>
